@@ -11,6 +11,8 @@ async function Home(){
 
   return (
       <div>
+          <div className="films"><Link href={"/films"}>Film</Link>
+          </div>
         <h1>Home *** {posts[0].title}</h1>
   {posts.map(el => (
       <div key={el.id} className="posts">

@@ -1,3 +1,5 @@
+import Input from "@/app/components/Input";
+
 export async function GET(request) {
     const data = {
         name: "Daniil",
@@ -18,3 +20,4 @@ export async function PUT(request) {
 export async function DELETE(request) {
     return new Response(request.body);
 }
+

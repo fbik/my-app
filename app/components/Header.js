@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import PagePost from "@/app/post/[id]/page";
 
 const Header = () => {
     return (
@@ -9,8 +8,9 @@ const Header = () => {
                 <strong>ItProger</strong>
             </span>
             <nav>
-                <Link href="./">Home</Link>
+                <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
+                <link href="/about/map"></link>
             </nav>
         </header>
     )

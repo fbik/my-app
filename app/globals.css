@@ -30,8 +30,12 @@ a.hover {
 }
 
 .container {
-    padding: 50px;
+    padding: 20px 50px;
+    color: gold;
 }
+ .div {
+     display: flex;
+ }
 
 .posts {
     width: 500px;
@@ -52,5 +56,15 @@ a.hover {
 }
 
 .posts a {
-    color: greenyellow;
+    color: red;
+}
+
+.films {
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background: aquamarine;
+    color: blue;
+    border-bottom: 10px solid sienna;
 }
